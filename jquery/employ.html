@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <div class="split left">
+  <center>
+    <h2>Employee Task Record</h2>
+  </center>
+
+  <table>
+    <tr>
+      <th>S.N</th>
+      <th>Task</th>
+      <th>Description</th>
+      <th>Complete</th>
+      <th>Type</th>
+    </tr>
+  </table>
+</div>
+<div class="split right">
+  <center>
+    <form id="first_form" method="post" action="">
+      Given Task : <input type="text" id="first_name" name="task" value="">
+      <br><br> Description: <input type="text" name="description" value=""><br>
+      <br> Complete: <input type="radio" name="taskDone" value="yes" checked> Yes
+      <input type="radio" name="taskDone" value="no"> No<br> <br> Task Type:
+      <select>
+        <option value="regular">Regular</option>
+        <option value="Meeting">Meeting</option>
+        <option value="coding">Coding</option>
+        <option value="documentation">Documentation</option>
+        <option value="support">Support</option>
+      </select> <br> <br>
+      <input type="submit" onclick="" value="submit" button class="button">
+    </form>
+  </center>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+
+$('.btn').on('click', function(event) {
+    var firstName = $.trim($('#first_name').val());
+    console.log(firstName);
+    var description = $.trim($('#description').val());
+    var taskDone = $('input[name=taskDone]:checked').val();
+    var taskType = $('#taskType option:selected').val();
+    var numRows = $('#tableBody').find('tr').length;
+    var newRow = $('<tr><td></td><td></td><td></td><td></td><td></td></tr>');
+    var cols = newRow.children();
+    cols.eq(0).text(numRows + 1);
+    cols.eq(1).text(firstName);
+    cols.eq(2).text(description);
+    cols.eq(3).text(taskDone);
+    cols.eq(4).text(taskType);
+    newRow.appendTo('#tableBody');
+
+});
+</script>
+    
+</body>
+</html>

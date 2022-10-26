@@ -1,0 +1,9 @@
+document.getElementById("p1").style.color="red";
+const elmnt = document.getElementById("p2"); elmnt.remove();
+document.querySelector("body").style.backgroundColor="pink";
+document.getElementsByTagName("li")[1].style.fontSize="5rem";
+document.getElementsByTagName("li")[1].style.listStyleType="none";
+document.querySelector("p span").style.color="blue";
+document.getElementsByTagName("span")[1].style.color="green";
+document.getElementsByTagName("span")[1].style.fontSize="2rem";
+document.querySelector("p span").style.fontSize="2rem";

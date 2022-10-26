@@ -1,0 +1,40 @@
+
+.head{
+    height:200px;
+    background-color: aquamarine;
+    padding:20px;
+    width:200px;
+    border:10px;
+    border-style: solid;
+    border-color:black ;
+    border-width:10Px;
+    font-size:20px;
+    font-style:oblique;
+    text-align:justify;
+}
+.content{
+    height:200px;
+    width:200px;
+    background-color: red;
+    /*here margin top right buttom left sharthand*/
+    margin: 0 0 0 259px;
+    padding:20px;
+    /*sharthand width style color*/
+    border:20px solid black;
+    
+
+    
+    
+
+}
+.naren{
+height:200px;
+width:200px;
+background-color:yellow;
+margin:0 0 0 539px;
+padding:20px;
+border-style:solid;
+border-width:10px;
+border-color:black;
+}
+

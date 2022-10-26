@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+.watch{
+    display: flexbox;
+    margin-top:23%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    background-color: #363f48;;
+    width:300px;
+    margin:auto
+}
+#time{
+    color:#fff;
+   }
+   button hover{
+    background-color: #363f48;
+   }

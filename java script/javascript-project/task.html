@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <input type="text" id = "task" placeholder="task add...">
+    <button id="btn">Add</button>
+    <div id="tasklist">
+
+    </div>
+    <script>
+        let task = document.getElementById("task");
+        let tasklist = document.getElementById("tasklist");
+        let button=document.getElementById("btn") 
+         button .onclick=function (){
+            if(task.value.length==0){
+                alert("add task")
+            }
+            else{
+                tsklist.innerHTML=tasklist.innerHTML+`<div class="task">
+                    <span id "worl">${task.value}</span>
+                    <button class="del">delete</button>
+                    </div>`
+                    let alltask=document.querySelectorAll(".del");
+                    for(i=0;i<alltask.length;i++){
+                        alltask[i].onclick=function(){
+                            this.parentNode.remove()
+                        }
+                        }
+                        task.value=""
+                    }
+            }
+        
+    </script>
+</body>
+</html>

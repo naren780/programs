@@ -1,0 +1,31 @@
+<doctype html>
+    <html>
+
+    <head>
+        <title>jquery</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#para1").click(function () {
+                    $(".para2").css("color", "red").slideToggle(5000);
+                });
+
+            });
+        </script>
+    </head>
+
+    <body>
+        <p id="para1">click here</p>
+        <p class="para2">Track your progress with the free "My Learning" program here at W3Schools.
+
+            Log into your account, and start earning points!
+
+            This is an optional feature, you can study W3Schools without using My Learning.</p>
+        <p class="para2">Track your progress with the free "My Learning" program here at W3Schools.
+
+            Log into your account, and start earning points!
+
+            This is an optional feature, you can study W3Schools without using My Learning.</p>
+    </body>
+
+    </html>

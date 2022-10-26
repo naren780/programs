@@ -1,0 +1,45 @@
+body{
+    background-color:pink;
+    background-image: url("https://th.bing.com/th/id/R.64738fff4c24bf330f4d072d23940afa?rik=ercpBOZknCbkpQ&riu=http%3a%2f%2fwww.wallpapers13.com%2fwp-content%2fuploads%2f2016%2f01%2fWallpaper-waterfall-water-sunlight-2560x1600-1920x1440.jpg&ehk=3aRxucOPDCIMk2mzX%2fKbrH%2fPxaUnXkXaHxZ7oezmWZ0%3d&risl=&pid=ImgRaw&r=0");
+    background-reapet:no-reapet;
+    background-postion:center;
+    background-attachment:fixed;
+}
+p{
+    font-family:algerian;
+    font-style:bold;
+    font-variant:small-caps;
+    font-
+}
+img{
+    border-raidus:100px;
+}
+img:hover{
+
+width:100px;
+height:100px;
+}
+h1,p{
+    text-align:right;
+}
+div{
+    border-style:solid;
+    border-color:rgb(218, 10, 218);
+    border-width:3px;
+}
+table{
+   border-width:5px;
+   border-color:black;
+   caption-side:top-right;
+   border-style:dotted;
+   border-spacing:5px;
+   
+}
+td{
+    font-size:x-large;
+    text-shadow:4px 4px red;
+}
+ul{
+    list-style:none;
+    list-image:url("https://th.bing.com/th/id/R.636537dc613b2dd438993cf656177647?rik=otkgp5UuQIJFBQ&riu=http%3a%2f%2fcdn.thinglink.me%2fapi%2fimage%2f347151190540156928%2f1024%2f10%2fscaletowidth%2f0%2f0%2f1%2f1%2ffalse%2ftrue%3fwait%3dtrue&ehk=dbBWB%2bILC7Qwl%2bxh4T39Q6qi8T1gl8%2b2zV1SCkY8f%2fk%3d&risl=&pid=ImgRaw&r=0")
+}

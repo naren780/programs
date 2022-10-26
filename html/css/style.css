@@ -1,0 +1,25 @@
+body{
+    background-color:rgb(218, 250, 247)
+}
+h1,h3{
+ color: rgb(0, 247, 255);
+}
+hr{
+    border-style:none;
+    border-top-style:dotted;
+    width:30%;
+    height:5px;
+    border-top-width:2px;
+}
+a:hover{
+    color:pink;
+    font-size:x-large;
+    background-color: black;
+
+}
+a:link{
+    text-decoration: none;
+}
+img{
+    border-radius:100px;
+}

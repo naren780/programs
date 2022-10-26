@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>uppercase</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var sentance=prompt("enter letters");
+            var word=sentance.split(" ");
+            
+            var compilised="";
+            for(var i=0;i < word.length;i++){
+                var wordlength = word[i].length;
+                
+                var character=word[i].slice(0,1);
+
+                var upper=character.toUpperCase();
+
+                var reamin=word[i].slice(1,wordlength);
+                
+                var lower=reamin.toLowerCase();
+               
+                compilised = compilised + " " + upper + lower;
+ 
+            } 
+            alert(compilised);
+            
+            /*var run1=word[0];
+            var run2=word[1]
+            var run3=word[2];
+            var run4=word[3];
+
+            var lve1=run1.slice(0,1);
+            var lve2=run2.slice(0,1);
+            var lve3=run3.slice(0,1);
+            var lve4=run4.slice(0,1);
+
+            let result1 =lve1.toLocaleUpperCase();
+            let result2 =lve2.toLocaleUpperCase();
+            let result3 =lve3.toLocaleUpperCase();
+            let result4=lve4.toLocaleUpperCase();*/
+
+
+           /* alert(result1+result2+result3+result4);*/
+        </script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+<!doctype htmal>
+<html>
+<head>
+     <title>footer</title>
+</head>
+<body>
+<<footer>
+&copy;
+<p>copy rights are legal</p>
+</footer>
+</body>
+</html>

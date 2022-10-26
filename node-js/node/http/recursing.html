@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        function number(n) {
+            if(n<10){
+                return n;
+            }
+            else{
+                var lastNum = n%10;
+                var rmNumber = Math.floor(n/10);
+                return number(lastNum+number(rmNumber));
+            }
+            
+        }
+       
+    console.log(number(1234567890));
+
+        
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: rgba(0, 0, 0, 0.773);
+        }
+
+        label {
+            content: "";
+            width: 15px;
+            height: 15px;
+
+            position: absolute;
+            left: 41px;
+
+            box-sizing: border-box;
+            border-radius: 50%;
+            color: aqua;
+        }
+
+        .touch {
+            position: relative;
+            width: 19px;
+            height: 19px;
+            left: 5px;
+            top: 3px;
+            border: 5px solid #fff;
+            opacity: 0;
+            border-radius: 50%;
+        }
+
+        @keyframes explode {
+            0% {
+                opacity: 0;
+                transform: scale(10);
+            }
+
+            60% {
+                opacity: 1;
+                transform: scale(0.5);
+            }
+
+            100% {
+                opacity: 0;
+                transform: scale(1);
+            }
+
+
+        }
+
+        input[type="radio"]:checked~.touch {
+            position: absolute;
+            opacity: 1;
+            animation: explode 0.35s;
+        }
+
+        .line {
+            position: absolute;
+            width: 10px;
+            height: 2px;
+            background-color: #fff;
+            opacity: 0;
+
+        }
+
+        .line.zero {
+            left: 11px;
+            top: -21px;
+            transform: translateY(20px);
+            width: 2px;
+            height: 10px;
+        }
+
+        .line.one {
+            right: -7px;
+            top: -11px;
+            transform: rotate(-55deg)translate(-9px);
+
+        }
+
+        .line .two {
+            right: -20px;
+            top: 11px;
+            transform: translate(-9px);
+
+        }
+
+        input[type="radio"]:checked~.touch.line.zero {
+            animation: drop-zero 0.9s forwards 0.1s;
+        }
+
+        @keyframes drop_zero {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+                height: 10px;
+            }
+
+            20% {
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(-2px);
+                height: 0px;
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <input type="radio" name="ncq" checked>
+    <label>Radio!</label><br><br>
+    <div class="touch">
+        <div class="line zero"></div>
+        <div class="line one"></div>
+        <div class="line two"></div>
+        <div class="line three"></div>
+        <div class="line four"></div>
+        <div class="line five"></div>
+        <div class="line six"></div>
+        <div class="line seven"></div>
+    </div>
+    <input type="radio" name="ncq">
+    <label>hello</label>
+    <div class="touch">
+        <div class="line zero"></div>
+        <div class="line one"></div>
+        <div class="line two"></div>
+        <div class="line three"></div>
+        <div class="line four"></div>
+        <div class="line five"></div>
+        <div class="line six"></div>
+        <div class="line seven"></div>
+    </div>
+
+</body>
+
+</html>

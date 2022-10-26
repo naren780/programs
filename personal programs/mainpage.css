@@ -1,0 +1,142 @@
+*{
+    margin:0;
+}
+body{
+    background-image: url("home.jpg");rgba("0 0 0 0.9"); rgba("0 0 0 0.9");
+    width:100%;
+    height:100vh;
+font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+ul{
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    background:transparent;
+}
+li{
+    text-decoration: none;
+    display:inline-block;
+    float: left;
+    margin:0;
+    padding:20px 30px;
+    disply:none;
+
+}
+li a{
+    text-decoration: none;
+    color:rgb(245, 226, 192);
+
+}
+li{
+    background:transparent;
+    transition: 0.6s ease;
+
+}
+li a:hover{
+    background-color: #fff;
+    padding:14px 25px;text-align:center;
+}
+ h1.CONT{
+    backgound:transparent;
+
+    text-color:#fff;
+}
+div.juni{
+    background: transparent;
+    text-align:center;
+    boreder:1px solid rgb(245, 225, 111);
+     text-color:#fff;
+     width:500px;
+     height:500px;
+     display: inline-block;
+     float:right;
+}
+#cnt{
+    bac
+    tect-color:#fff;
+}
+div #form{
+    border-radius: 10px solid white;
+    width: 500px;
+    height:500px; 
+    margin: 10%;
+    padding:20px 25px;
+    display: inline-block;
+    background: transparent;
+    transition: 0.6s ease;
+    
+
+    
+    
+
+}
+div .input{
+    color:#fff
+    background:transparent;
+
+}
+div.foot{
+    display: inline-block;
+    float:left;
+}
+.input{
+    border-radius: 10px;
+    border:none;
+    background-color: transparent;
+    border:1px solid lightpink;
+    padding:10px 20px;
+
+}
+.but{
+    background-color: lightpink;
+    padding:10px 10px;
+    border:none;
+    border-radius: 10px;
+    padding:10px 20px;
+    
+}
+div.set{
+    float:left;
+    position: relative;
+    right:1300px;
+    bottom:40px;
+}
+.frame{
+    display: inline-block;
+
+   margin-top:100px;
+    width:500px;
+    height:500px;
+}
+.face{
+    dispaly:inline-block;
+    position:relative;
+    left:800px;
+    top:
+}
+
+.inst{
+     display:inline-block
+    position: relative;
+    left:800px;
+}
+    
+
+.twi{
+    dispaly:inline-block;
+    position:relative;
+    left:700px;
+    border-radius: 20px;
+}
+.whats{
+    dispaly:inline-block;
+    position:relative;
+    left:700px;
+    border-radius: 20px;;
+}
+ 
+
+
+
